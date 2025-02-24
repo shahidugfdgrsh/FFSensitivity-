@@ -1,0 +1,55 @@
+body {
+    background-color: black; /* Solid black background */
+    color: white; /* White text for contrast */
+    font-family: Arial, sans-serif; /* Normal font */
+    margin: 0;
+    padding: 0;
+}
+
+#loginContainer,
+#phoneContainer,
+#sensitivityOutput {
+    display: none; /* Hide these containers initially */
+    text-align: center; /* Center the text */
+    padding: 20px;
+}
+
+#loginContainer {
+    display: block; /* Show login container initially */
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white; /* White border for input fields */
+    border-radius: 5px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white background */
+    color: white; /* Input text color */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded edges */
+    background-color: blue; /* Blue background for buttons */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Button text size */
+}
+
+button:hover {
+    background-color: darkblue; /* Darker blue on hover */
+}
+
+.phone-button {
+    display: block; /* Stack phone buttons vertically */
+    padding: 10px;
+    margin: 5px auto; /* Center the buttons */
+    border: 1px solid white; /* White border for phone buttons */
+    border-radius: 5px; /* Rounded edges */
+    background-color: blue; /* Blue background for phone buttons */
+    color: white; /* White text color */
+    width: 200px; /* Fixed width for phone buttons */
+}

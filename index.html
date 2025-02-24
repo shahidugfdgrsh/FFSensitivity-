@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Free Fire Sensitivity</title>
+</head>
+<body>
+    <div id="loginContainer">
+        <h1>Login to Free Fire Sensitivity</h1>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="checkLogin()">Login</button>
+        <p id="errorMessage" style="color: red;"></p>
+    </div>
+
+    <div id="phoneContainer">
+        <h2>Select Your Phone</h2>
+        <div class="phone-button" onclick="redirectToSensitivity('Samsung Galaxy S21')">Samsung Galaxy S21</div>
+        <div class="phone-button" onclick="redirectToSensitivity('iPhone 13')">iPhone 13</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Google Pixel 6')">Google Pixel 6</div>
+        <div class="phone-button" onclick="redirectToSensitivity('OnePlus 9')">OnePlus 9</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Xiaomi Redmi Note 10')">Xiaomi Redmi Note 10</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Oppo Reno 5')">Oppo Reno 5</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Vivo V21')">Vivo V21</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Nokia G50')">Nokia G50</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Realme GT')">Realme GT</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Motorola Moto G Power')">Motorola Moto G Power</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Huawei P40 Lite')">Huawei P40 Lite</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Asus Zenfone 8')">Asus Zenfone 8</div>
+        <div class="phone-button" onclick="redirectToSensitivity('LG Velvet')">LG Velvet</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Sony Xperia 10 III')">Sony Xperia 10 III</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Samsung A52')">Samsung A52</div>
+        <div class="phone-button" onclick="redirectToSensitivity('iPhone 12')">iPhone 12</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Nokia 8.3 5G')">Nokia 8.3 5G</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Xiaomi Mi 11')">Xiaomi Mi 11</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Poco X3 Pro')">Poco X3 Pro</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Tecno Camon 18')">Tecno Camon 18</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Infinix Zero X')">Infinix Zero X</div>
+        <div class="phone-button" onclick="redirectToSensitivity('ZTE Axon 20')">ZTE Axon 20</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Alcatel 3X')">Alcatel 3X</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Micromax IN Note 1')">Micromax IN Note 1</div>
+        <div class="phone-button" onclick="redirectToSensitivity('TCL 20 Pro 5G')">TCL 20 Pro 5G</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Samsung Galaxy Note 20')">Samsung Galaxy Note 20</div>
+        <div class="phone-button" onclick="redirectToSensitivity('iPhone SE (2020)')">iPhone SE (2020)</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Xiaomi Mi 10')">Xiaomi Mi 10</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Samsung M32')">Samsung M32</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Huawei Mate 40 Pro')">Huawei Mate 40 Pro</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Oppo Find X3 Pro')">Oppo Find X3 Pro</div>
+        <div class="phone-button" onclick="redirectToSensitivity('Google Pixel 5a')">Google Pixel 5a</div>
+    </div>
+
+    <div id="sensitivityOutput">
+        <h2 id="selectedPhone"></h2>
+        <div id="sensitivityData"></div>
+        <button onclick="goBack()">Back</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
